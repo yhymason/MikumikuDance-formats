@@ -1,84 +1,84 @@
-bone jp:ƒZƒ“ƒ^[
+bone jp:ã‚»ãƒ³ã‚¿ãƒ¼
 bone eng:center
 x:0
 y:8
 z:0
-bone jp:ã”¼g
+bone jp:ä¸ŠåŠèº«
 bone eng:upper body
 x:0
 y:13.3012
 z:-0.255278
-bone jp:“ª
+bone jp:é ­
 bone eng:head
 x:0
 y:16.9086
 z:0
-bone jp:‰º”¼g
+bone jp:ä¸‹åŠèº«
 bone eng:lower body
 x:0
 y:13.2426
 z:-0.255269
-bone jp:¶˜r
+bone jp:å·¦è…•
 bone eng:arm_L
 x:1.15089
 y:15.6891
 z:0.31783
-bone jp:¶‚Ğ‚¶
+bone jp:å·¦ã²ã˜
 bone eng:elbow_L
 x:3.45749
 y:14.2811
 z:0.48
-bone jp:¶èñ
+bone jp:å·¦æ‰‹é¦–
 bone eng:wrist_L
 x:5.01807
 y:12.9639
 z:0.252019
-bone jp:¶‘«
+bone jp:å·¦è¶³
 bone eng:leg_L
 x:0.796811
 y:10.7527
 z:-0.072743
-bone jp:¶‚Ğ‚´
+bone jp:å·¦ã²ã–
 bone eng:knee_L
 x:0.673676
 y:6.09049
 z:-0.053481
-bone jp:¶‘«ñ
+bone jp:å·¦è¶³é¦–
 bone eng:ankle_L
 x:0.875424
 y:1.34
 z:0
-bone jp:‰EŒ¨
+bone jp:å³è‚©
 bone eng:shoulder_R
 x:-0.136362
 y:16.13
 z:0.264887
-bone jp:‰E˜r
+bone jp:å³è…•
 bone eng:arm_R
 x:-1.15089
 y:15.6891
 z:0.31783
-bone jp:‰E‚Ğ‚¶
+bone jp:å³ã²ã˜
 bone eng:elbow_R
 x:-3.45749
 y:14.2811
 z:0.48
-bone jp:‰Eèñ
+bone jp:å³æ‰‹é¦–
 bone eng:wrist_R
 x:-5.01807
 y:12.9639
 z:0.252019
-bone jp:‰E‘«
+bone jp:å³è¶³
 bone eng:leg_R
 x:-0.796811
 y:10.7527
 z:-0.072743
-bone jp:‰E‚Ğ‚´
+bone jp:å³ã²ã–
 bone eng:knee_R
 x:-0.673676
 y:6.09049
 z:-0.053481
-bone jp:‰E‘«ñ
+bone jp:å³è¶³é¦–
 bone eng:ankle_R
 x:-0.875424
 y:1.34

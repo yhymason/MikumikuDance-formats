@@ -376,7 +376,6 @@ std::unique_ptr<PmdModel> pmd::PmdModel::LoadFromStream(std::ifstream * stream)
 							"leg_R", "knee_R", "ankle_R"};
 	for(int i = 0; i < 19; i++){
 		bone_english.push_back(eng[i]);
-		//std::cout << eng[i] << std::endl;
 	}
 	std::vector<string>::iterator it;
 	size_t len = result->bones.size();
@@ -387,8 +386,10 @@ std::unique_ptr<PmdModel> pmd::PmdModel::LoadFromStream(std::ifstream * stream)
 		it = std::find(bone_english.begin(), bone_english.end(), str);
 		if (it != bone_english.end()){
 			size_t index = std::distance(bone_english.begin(), it);
-			str = bone_english[index];
-			myfile << "bone:" << str << "\n";
+			std::string str_eng = bone_english[index];
+			std::string str_jp = result->bones[i].name;
+			myfile << "bone jp:" << str_jp << "\n";
+			myfile << "bone eng:" << str_eng << "\n";
 			myfile << "x:" << result->bones[i].bone_head_pos[0] << "\n";
 			myfile << "y:" << result->bones[i].bone_head_pos[1] << "\n";
 			myfile << "z:" << result->bones[i].bone_head_pos[2] << "\n";

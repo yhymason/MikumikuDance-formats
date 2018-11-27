@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     vmd::VmdMotion motion;
     motion.LoadFromFile("Bad Romance.vmd");
     //std::cout << "here" << std::endl;
-    //pmd::PmdModel model;
-    //model.LoadFromFile("Miku_Hatsune.pmd");
+    pmd::PmdModel model;
+    model.LoadFromFile("Miku_Hatsune.pmd");
     return 0;
 }
